@@ -1,0 +1,28 @@
+.dropdown-button {
+  text-align: left;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  background-color: $white;
+  color: $black1;
+  border-color: $black2;
+  :hover {
+    background-color: $white;
+  }
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: $black1;
+  background-color: $black-hover;
+}
+
+.dropdown {
+  .btn-primary:hover,
+  .btn-primary:active,
+  .btn-primary:active,
+  .btn-primary.dropdown-toggle {
+    background-color: $white;
+    color: $black1;
+  }
+}
